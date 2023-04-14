@@ -50,6 +50,7 @@
             this.maça.TabIndex = 0;
             this.maça.Text = "Maça";
             this.maça.UseVisualStyleBackColor = true;
+            this.maça.CheckedChanged += new System.EventHandler(this.maça_CheckedChanged);
             // 
             // label1
             // 
@@ -73,6 +74,7 @@
             this.banana.TabIndex = 2;
             this.banana.Text = "Banana";
             this.banana.UseVisualStyleBackColor = true;
+            this.banana.CheckedChanged += new System.EventHandler(this.banana_CheckedChanged);
             // 
             // manga
             // 
@@ -85,6 +87,7 @@
             this.manga.TabIndex = 3;
             this.manga.Text = "Manga";
             this.manga.UseVisualStyleBackColor = true;
+            this.manga.CheckedChanged += new System.EventHandler(this.manga_CheckedChanged);
             // 
             // uva
             // 
@@ -97,6 +100,7 @@
             this.uva.TabIndex = 4;
             this.uva.Text = "Uva";
             this.uva.UseVisualStyleBackColor = true;
+            this.uva.CheckedChanged += new System.EventHandler(this.uva_CheckedChanged);
             // 
             // cereja
             // 
@@ -109,6 +113,7 @@
             this.cereja.TabIndex = 5;
             this.cereja.Text = "Cereja";
             this.cereja.UseVisualStyleBackColor = true;
+            this.cereja.CheckedChanged += new System.EventHandler(this.cereja_CheckedChanged);
             // 
             // laranja
             // 
@@ -121,6 +126,7 @@
             this.laranja.TabIndex = 6;
             this.laranja.Text = "Laranja";
             this.laranja.UseVisualStyleBackColor = true;
+            this.laranja.CheckedChanged += new System.EventHandler(this.laranja_CheckedChanged);
             // 
             // goiaba
             // 
@@ -133,6 +139,7 @@
             this.goiaba.TabIndex = 7;
             this.goiaba.Text = "Goiaba";
             this.goiaba.UseVisualStyleBackColor = true;
+            this.goiaba.CheckedChanged += new System.EventHandler(this.goiaba_CheckedChanged);
             // 
             // button1
             // 
